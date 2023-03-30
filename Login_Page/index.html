@@ -21,76 +21,82 @@
 
             <div class="login_field">
 
-                
 
-                    Chest Number : <input type="text" , placeholder="Enter Chest Number"><br><br>
+
+                Chest Number : <input type="text" , placeholder="Enter Chest Number"><br><br>
+
+
+                <p>Please enter your Date of Birth:
+                <p>
+                    <input type="date">
 
                     <button onclick="showTable()">Submit</button>
 
-                    <table id="myTable" class="table" style="display:none;" border="1" cellpadding="5" cellspacing="5" align="Center">
-                        <tr>
-                            <th>Sr No.</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Chest Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Chest Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Name</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Gender</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Building(Center)Name</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Floor Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Type Of Room</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Floor Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Hall Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Classroom Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                        <tr>
-                            <th>Desk Number</th>
-                            <td>(from sheet)</td>
-                        </tr>
-                    </table>
+                <table id="myTable" class="table" style="display:none;" border="1" cellpadding="5" cellspacing="5"
+                    align="Center">
+                    <tr>
+                        <th>Sr No.</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Chest Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Chest Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Building(Center)Name</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Floor Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Type Of Room</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Floor Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Hall Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Classroom Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                    <tr>
+                        <th>Desk Number</th>
+                        <td>(from sheet)</td>
+                    </tr>
+                </table>
 
-                    <script>
-                        function showTable() {
-                            var table = document.getElementById("myTable");
-                            if (table.style.display === "none") {
-                                table.style.display = "table";
-                            } else {
-                                table.style.display = "none";
-                            }
+                <script>
+                    function showTable() {
+                        var table = document.getElementById("myTable");
+                        if (table.style.display === "none") {
+                            table.style.display = "table";
+                        } else {
+                            table.style.display = "none";
                         }
+                    }
 
-                    </script>
+                </script>
 
-               
+
 
             </div>
 
