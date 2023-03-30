@@ -24,6 +24,11 @@ body {
 
 }
 
+table{
+
+  padding-top: 20px;
+}
+
 @media screen {
 
   h1 {
