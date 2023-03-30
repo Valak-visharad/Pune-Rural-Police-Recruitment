@@ -1,0 +1,62 @@
+.containeer {
+
+  text-align: center;
+
+}
+
+.login_field {
+
+  padding-top: 100px;
+  
+}
+
+
+button {
+
+  padding: 0px 20px 0px 20px;
+
+}
+
+body {
+
+  background-image: url(../images/pune_police_bg-removebg-preview.png);
+  background-repeat: no-repeat;
+
+}
+
+table{
+
+  padding-top: 20px;
+}
+
+@media screen {
+
+  h1 {
+
+    padding-top: 100px;
+    text-size-adjust: 10px;
+
+  }
+
+  body {
+
+    background-size: 150px;
+    background-position-x: center;
+
+  }
+
+  .login_field {
+
+    padding-top: 40px;
+  }
+
+  p {
+
+    font-size: small;
+  }
+
+  h1{
+
+    font-size: larger;
+  }
+}
