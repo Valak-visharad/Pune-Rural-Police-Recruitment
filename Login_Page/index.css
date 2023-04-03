@@ -7,7 +7,7 @@
 .login_field {
 
   padding-top: 100px;
-
+  
 }
 
 
@@ -29,7 +29,7 @@ table{
   padding-top: 20px;
 }
 
-@media screen {
+@media screen and (max-width: 710px){
 
   h1 {
 
@@ -38,25 +38,34 @@ table{
 
   }
 
-  body {
+  body{
 
     background-size: 150px;
     background-position-x: center;
 
   }
 
-  .login_field {
-
-    padding-top: 40px;
-  }
-
-  p {
-
+  p{
     font-size: small;
   }
+
 
   h1{
 
     font-size: larger;
   }
+}
+
+.user_data{
+  align-content: center;
+  border: 1px solid black;  
+}
+
+p{
+   font-size: large;
+}
+
+table,th,td{
+  align-items: center;
+  border: 1px solid black;
 }
