@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pune Rural Police Recruitment Examination - 2023</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="containeer">
+
+            <h1>Pune Rural Police Recruitment Examination - 2023</h1>
+            <p><b>Venue:</b> MIT Art, Design and Technology University, Rajbaugh Loni Kalbhor, Solapur Highway,
+                Near Bharat Petrol Pump Loni Kalbhor Railway Station,<br> Pune - 412201, Maharashtra India.
+            </p>
+
+            <div class="login_field">
+
+                <form action="form.php" method="post">
+
+                    Chest Number : <input type="text" id="Chest_no" , placeholder="Enter Chest Number"><br><br>
+
+
+                    <!-- <p>Please enter your Date of Birth:
+                    <p>
+                        <input type="date"> -->
+
+                        <button onclick="showTable()" type="submit">Submit</button>
+
+                </form>
+
+
+                <table id="myTable" class="table" style="display:none;" border="1" cellpadding="5" cellspacing="5"
+                    align="Center">
+                    <?php foreach ($data as $row): ?>
+                    <tr>
+                        <th>Sr No.</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <!-- <tr>
+                        <th>Chest Number</th>
+                        <td><?php echo $row[1]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Chest Number</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Building(Center)Name</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Floor Number</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Type Of Room</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Floor Number</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Hall Number</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Classroom Number</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Desk Number</th>
+                        <td><?php echo $row[0]; ?></td>
+                    </tr> -->
+                    <?php endforeach; ?>
+                </table>
+
+                <script>
+                    function showTable() {
+                        var table = document.getElementById("myTable");
+                        if (table.style.display === "none") {
+                            table.style.display = "table";
+                        } else {
+                            table.style.display = "none";
+                        }
+                    }
+
+                </script>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
